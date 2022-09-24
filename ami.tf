@@ -1,4 +1,4 @@
-data "aws_ami" "RedHat" {
+data "aws_ami" "ubuntu" {
   most_recent = true 
   executable_users = ["self"] 
   
